@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.loadingContainer {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa la altura completa de la pantalla */
+      
+    img {
+        width: 300px;
+    }
+}
+
+.globalContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+    
+
+.formContainer {
+	color: rgb(0, 0, 0);
+	border-radius: 15px;
+	box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #111315;
+    height: 900px;
+	width: 500px;
+	position: relative;
+    background-image: url('https://padelmagazine.fr/wp-content/uploads/2024/03/Pourquoi-couvrir-une-piste-de-padel.jpg');
+    background-repeat: no-repeat;
+    background-position:inital;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+	font-family: 'Poppins', sans-serif;
+
+    h2{
+        color: rgb(0, 77, 178);
+        padding: 20px;
+    }
+   }
+	
+		form {
+			border-radius: 15px;
+			background-color: #fff;		
+			margin: 50px;
+            padding: 30px;
+            position: absolute;
+        
+
+			
+			.input {
+				border: 0;
+				outline: none;
+				box-shadow: none;
+				display: block;
+				height: 30px;
+				line-height: 30px;
+				padding: 8px 10px;
+				border-bottom: 1px solid #eee;
+				font-size: 12px;
+				
+				&:last-child {
+					border-bottom: 0;
+				}
+				&::-webkit-input-placeholder {
+					color: rgba(0,0,0,0.4);
+				}
+			}
+		}
+		
+		button {
+			background-color: rgb(0, 77, 178);
+			color: white;
+			border:0;
+			border-radius: 15px;
+			display: block;
+			margin: 15px auto; 
+			padding: 15px 45px;
+			width: 100%;
+			font-size: 13px;
+			font-weight: bold;
+			cursor: pointer;
+			opacity: 1;
+			visibility: visible;
+			transition: all .3s ease;
+			
+			&:hover {
+				transition: all .3s ease;
+				background-color:  rgb(226, 250, 91);
+                color:rgb(0, 77, 178);
+			}
+		}
+		.errors {
+			color: red;
+			font-size: 0.875em;
+			margin-top: -8px;
+			margin-bottom: 10px;
+		  }
+
+		  .errorsEspacio {
+			margin: 10px;
+		}
+	
+		
+		
+
+    

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+.cardAppointment {
+    background-color: rgba(255, 255, 255, 0.934);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 3px;
+    display: flex;
+    padding: 20px;
+    justify-items:space-between;
+    align-items: center;
+    width: 100%;
+    h3{ 
+        margin-left: 20px;
+        label {
+            color:  rgb(0, 77, 178);
+            font-style: italic;
+
+        }
+        color: rgb(0, 0, 0);
+    }
+    .status.active {
+     color: rgb(150, 196, 24);
+    }
+
+    .status.cancelled {
+        color: brown;
+    }
+
+    
+@media(max-width: 1214px){
+          display: flex;
+          flex-direction: column;;
+}
+}
+
+.cancelButton {
+    background-color: rgb(0, 77, 178);
+    color: white;
+    padding: 15px 45px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    border:0;
+    display:flex;
+    justify-content: center;
+    margin-right: 15px;
+    width: 20%;  
+        
+    @media(max-width: 1214px){
+        margin: 0px;
+}
+
+}
+
+.cancelButton:hover {
+    background-color: brown;
+    color: white;
+    padding: 15px 45px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    border:0;
+    display:flex;
+    justify-content: center;
+    margin-right: 15px;
+    width: 20%;   
+
+}
+
+.cancelButton:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+    display:flex;
+    justify-content: center;
+}
+

@@ -1,0 +1,59 @@
+.appointmentListContainer {
+
+    background-color:rgba(0, 0, 0, 0.099);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #111315;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px 200px 40px 200px;
+    align-content: center;
+    justify-content: space-around;
+    
+
+}
+
+.buttonNuevoTurno {
+    width: 15%;
+    display:flex;
+    justify-content: center;
+}
+
+.globalContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 63vh;
+}
+
+
+.formContainer {
+	color: rgb(0, 0, 0);
+	border-radius: 15px;
+	box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #111315;
+	height: 550px;
+	width: 500px;
+	position: relative;
+    background-image: url('https://img.freepik.com/fotos-premium/pelota-tenis-ve-cancha-cerca-red_501072-4386.jpg?w=996');
+    background-repeat: no-repeat;
+    background-position:center ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+	font-family: 'Poppins', sans-serif;
+
+    h2{
+        color: rgb(0, 77, 178);
+        padding: 20px;
+    }
+   }
+
+   .errors {
+    color: red;
+    font-size: 0.875em;
+    margin-top: -8px;
+    margin-bottom: 10px;
+  }
+
+  .errorsEspacio {
+    margin: 10px;
+}
+
